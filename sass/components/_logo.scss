@@ -1,0 +1,13 @@
+.logo {
+	color: var(--accent-color);
+
+	font-family: Raleway;
+	@include font($fs: 26px, $lh: 31px);
+}
+
+.logo_black {
+	color: var(--primary-text-color);
+}
+.logo_white {
+	color: var(--tertiary-text-color);
+}
