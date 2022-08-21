@@ -1,5 +1,10 @@
-%align {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+%list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+%link {
+  text-decoration: none;
 }

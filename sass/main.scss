@@ -1,24 +1,55 @@
-@import "./utils/vars";
-@import "./utils/visually_hidden";
-@import "./utils/placeholders";
-@import "./utils/mixins";
-
-@import "./base/common";
-@import "./base/container";
-
-@import "./components/logo";
-@import "./components/button";
-@import "./components/social-networks";
-@import "./components/backdrop";
-@import "./components/modal-window";
-@import "./components/modal-form";
-
-@import "./layout/page-header";
-@import "./layout/hero";
-@import "./layout/advantages";
-@import "./layout/what-we-do";
-@import "./layout/ourteam";
-@import "./layout/regular";
-@import "./layout/footer";
-@import "./layout/portfolio-filter";
-@import "./layout/portfolio-gallery";
+@import './utils/colors';
+@import './utils/variables';
+@import './base/modern-normalize';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './layout/body';
+@import './base/visually-hidden';
+@import './layout/section';
+@import './layout/container';
+/* 
+=========== стили шапки 
+*/
+@import './layout/header';
+@import './components/logo';
+@import './components/site-nav';
+@import './components/header-contacts';
+/* 
+=========== стили героя
+*/
+@import './layout/hero';
+@import './components/hero-btn';
+/* 
+=========== особенности
+*/
+@import './layout/peculiarity';
+/* 
+=========== чем мы занимаемся
+*/
+@import './components/section-title';
+@import './layout/our-works';
+/* 
+=========== наша команда
+*/
+@import './layout/team';
+@import './components/soc-list';
+/* 
+=========== наши клиенты
+*/
+@import './layout/clients';
+/* 
+=========== футер
+*/
+@import './layout/footer';
+/* 
+=========== модальное окно
+*/
+@import './components/backdrop';
+@import './components/modal';
+@import './components/form';
+/* 
+=========== портфолио
+*/
+@import './layout/portfolio';
+@import './components/portfolio-filter-btn';
+@import './components/project-card';
